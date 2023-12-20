@@ -1,8 +1,8 @@
 ---
-layout: articles
-title: Articles
-description: A collection of blog posts covering design and development across all mediums
+layout: page
+title: Publications
+description: Selected publications
 ---
 
-<p>A collection of blog posts covering design and development across all mediums.</p>
+
 
