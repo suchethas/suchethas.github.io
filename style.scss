@@ -354,6 +354,14 @@ nav {
 
 }
 
+.with-photo {
+  position: relative; /* give the paragraph a positioning context */
+}
+
+.with-photo .marginnote {
+  display: block;
+}
+
 // /* Dark Mode */
 // @media (prefers-color-scheme: dark) {
 //     body{background:#191919;filter:invert(1);}
