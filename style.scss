@@ -354,17 +354,18 @@ nav {
 
 }
 
-.with-photo {
-  position: relative; /* anchor for sidenote */
+.about-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
-.with-photo .marginnote {
-  position: absolute;
-  right: -250px; /* adjust until the photo sits in your empty margin */
-  top: 0;
+.about-text {
+  flex: 2;
+  max-width: 55%; /* keep same paragraph width */
 }
 
-.with-photo .marginnote img {
+.about-photo img {
   max-width: 200px;
   border-radius: 10px;
 }
