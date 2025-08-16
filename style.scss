@@ -355,12 +355,20 @@ nav {
 }
 
 .with-photo {
-  position: relative; /* give the paragraph a positioning context */
+  position: relative; /* anchor for sidenote */
 }
 
 .with-photo .marginnote {
-  display: block;
+  position: absolute;
+  right: -250px; /* adjust until the photo sits in your empty margin */
+  top: 0;
 }
+
+.with-photo .marginnote img {
+  max-width: 200px;
+  border-radius: 10px;
+}
+
 
 // /* Dark Mode */
 // @media (prefers-color-scheme: dark) {
